@@ -6,7 +6,7 @@ const cors = require("cors");
 app.use(cors())
 // setup cors
 app.get("/", (req, res) =>{
-    res.send("Hello World")
+    res.send("Hello World 2")
 })
 
 // listen to port
